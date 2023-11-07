@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    
+    <!--összesítő-->
+    <p><b>Összesítő</b></p>
+    <p id="darabszam"></p>
+    <p id="osszar"></p>
+
+    <form id="form">
+      <label for="nev">
+        Név: <input type="text" id="nev">
+      </label>
+      <label for="ev">
+        Év: <input type="number" id="ev">
+      </label>
+      <label for="ar">
+        Ár: <input type="number" id="ar"> Ft
+      </label>
+      <label for="magassag">
+        Magasság: <input type="number" id="magassag"> cm
+      </label>
+      <button type="submit" id="gomb">Felvétel</button>
+    </form>
+
+    <p id="hibaUzenet"></p>
+    <!--<ul id="index_list"></ul> listás kiírás?-->
+
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
